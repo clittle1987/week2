@@ -1,0 +1,28 @@
+body{
+    background-color: darkslategray;
+    text-align: center;
+    border: dotted 15px silver;
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+    color: black;
+    font-family: cursive;
+}
+h2 {
+    font-size: 30px;
+    color: white;
+    margin-top: 5%;
+    border: solid 5% silver;
+    
+}
+button {
+    color: black;
+    font-size: 15%;
+    margin-top: 1%
+}
+
+form{
+     border: solid 5% silver;
+}

@@ -1,0 +1,46 @@
+/*.navbar{
+    border: solid 2% black;
+    background: black;
+} */
+body{
+  /*  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhiFjNdoL35lEwS8JALdTYDXHItNd-bLCOzpHPTrLX9tRyKLZ2");
+    */
+    color: white;
+    background: dimgrey;
+    font-style: bold;
+}
+/*
+
+.container{
+    border-style: solid;
+    border-color: black;
+    background: dimgrey;
+    height: auto;
+    width: auto;
+    
+
+}
+
+.container_1{
+    border-style: solid;
+    border-color: black;
+    background: white;
+    height: auto;
+    width: auto; 
+}
+
+.row{
+    border-style: solid;
+    margin: 1%;
+    padding: 3%;
+    background: black;
+    height: auto;
+    width: auto;
+}
+
+.boxes{
+    border-style: solid;
+    border-color:white;
+    background: black;
+    
+} */

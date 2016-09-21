@@ -1,0 +1,32 @@
+h2 {
+    color: blue;
+}
+
+.card span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #AAAAAA;
+}
+
+.card-img {
+    overflow: hidden;
+}
+.card-img span {
+    margin: 15px;
+}
+.card-img * {
+    position: absolute;
+}
+
+.card-bg {
+    background-image: url(CityStorm.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 560px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.card {
+    margin: 15px;
+}

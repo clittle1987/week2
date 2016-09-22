@@ -15,21 +15,56 @@
 	animation: animatedBackground 40s linear infinite;
 }
 
-#card1{
-    background-image: url(two.jpg);
+.card1{
+    background-image: url("two.jpg");
     font-weight: bold;
     font-size: 3em;
     background-size: cover;
-    background-height:100%;
-    width: auto;
-    overflow: hidden;
+    width: 25%;
+    height: 500px;
+    border-radius: 5%;
+   
+
+   
+    
+    
 
 }
 
-.card{
-    padding: 5%;
-  
+.card3{
+    background-image: url("sunny.jpg");
+    font-weight: bold;
+    font-size: 3em;
+    background-size: cover;
+    width: 25%;
+    height: 500px;
+    border-radius: 5%;
+
+ 
+    
+    
+
+
 }
+.card2{
+    background-image: url("cloudy.jpeg");
+    font-weight: bold;
+    font-size: 3em;
+    background-size: cover;
+    height: 500px;
+    width: 25%;
+    border-radius: 5%;
+    
+    
+     
+ 
+   
+}
+
+
+
+
+
 
 
 

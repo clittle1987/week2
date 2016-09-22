@@ -20,15 +20,13 @@
     font-weight: bold;
     font-size: 3em;
     background-size: cover;
-    width: 25%;
+    width: 30%;
     height: 500px;
     border-radius: 5%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 30px;
    
-
-   
-    
-    
-
 }
 
 .card3{
@@ -36,15 +34,11 @@
     font-weight: bold;
     font-size: 3em;
     background-size: cover;
-    width: 25%;
+    width: 30%;
     height: 500px;
     border-radius: 5%;
-
- 
+    display: inline-block;
     
-    
-
-
 }
 .card2{
     background-image: url("cloudy.jpeg");
@@ -52,16 +46,24 @@
     font-size: 3em;
     background-size: cover;
     height: 500px;
-    width: 25%;
+    width: 30%;
     border-radius: 5%;
+    display: inline-block;
+    margin-right: 20px;
     
-    
-     
- 
-   
 }
 
-
+.thumb1{
+    background-image: url("snow.jpg");
+    font-weight: bold;
+    font-size: 3em;
+    background-size: cover;
+    width: 30%;
+    height: 500px;
+    border-radius: 5%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 30px;
 
 
 

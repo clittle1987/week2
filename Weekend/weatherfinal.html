@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Official Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist_copy/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist_copy/css/bootstrap-theme.css">
+    <!-- JS scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Our project CSS -->
+    <link rel="stylesheet" href="slatetheme_copy.css">
+    <link rel="stylesheet" href="weatherfinal.css">
+     
+
+        
+
+
+    <!--  Nav Bar  --------------------------------------------------------------- -->
+    <!-- Test -->
+
+    <!-- Test Over -->
+
+    <nav class="navbar">
+        <img src="navsun.png" style="width: 75px;">
+        <ul>
+            <div class="sunnynav" style="margin-left: 50px; padding-top: 25px; padding-left: 40px;">
+                <li><u>Home</u></li>
+                <li style="margin-left: 20px;"><u>News</u></li>
+            </div>
+            <center>
+                <h1 style="color:white">
+                    <u>Putchee' Zip Code in below</u>
+                </h1>
+                <br>
+                 <form>
+                    <input placeholder="Enter Zipcode" type="text"> <span id="enterZip"></span>
+                     <button id="push" style="color:black">Update Weather</button>
+         
+                </form>
+                 </center>
+                  </ul>
+                   <br>
+            
+        <ul class="right">
+            <img src="moon1.png" style="width: 75px; height: 75px;">
+            <li>
+                <u>Log Out</u>
+            </li>
+        </ul>
+
+    </nav>
+    <!-- End of Nav Bar ---------------------------------------------------------------------->
+</head>
+<hr style="margin-bottom:50px; margin-top: 70px;">
+
+<!-- Container -------------------------------------------------------->
+
+<body>
+    
+    <center>
+        <div>
+            <div class="bgCard" style="margin-top: 5%">
+                <div style="margin-bottom:10px; margin-top:10px;">Temp: <span id="weather"></span> 0 &deg;  </div>
+                <div style="margin-bottom:10px;"><span id="location">Unknown</span></div>  <!-- location , google url -->
+                <div>  
+                <img id="icon" width="200px" height="140px" src="cloudy.png" />
+                </div>
+       <!--         <div class="imgReport"><img src="sun.png"></div>    --> 
+                <div style="margin-bottom:20px;"><span id=" ">0</span> % </div>
+                <div><span id="">0</span>mph <span id="">N</span></div>
+            </div>
+            <div class="summary">
+                <h1><u>Summary</u></h1>
+                <ul>
+                    <li id="summary"></li>
+                </ul>
+            </div>
+        </div>
+    </center>
+    
+    <br>
+     <!-- Official JQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <!-- Official Bootstrap -->
+    <script src="bootstrap-3.3.7-dist_copy/js/bootstrap.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Our project JS -->
+   <script type="text/javascript" src="weatherfinal.js"></script>
+
+   
+</body>
+<!-- End of container ----------------------------------------------------->
+
+</html>
+

@@ -2,47 +2,62 @@
 <html>
 
 <head>
-    <title>Weather</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Official Bootstrap -->
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist_copy/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist_copy/css/bootstrap-theme.css">
-    <!-- JS scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="weatherfinal.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    <link type="text/css" href="weatherfinal.css" rel="stylesheet" />
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Optional theme -->
+   
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    
+    
+        
+
     <!-- Our project CSS -->
     <link rel="stylesheet" href="slatetheme_copy.css">
     <link rel="stylesheet" href="weatherfinal.css">
-     
-
-        
 
 
     <!--  Nav Bar  --------------------------------------------------------------- -->
-    <!-- Test -->
 
-    <!-- Test Over -->
 
     <nav class="navbar">
         <img src="navsun.png" style="width: 75px;">
         <ul>
             <div class="sunnynav" style="margin-left: 50px; padding-top: 25px; padding-left: 40px;">
-                <li><u>Home</u></li>
-                <li style="margin-left: 20px;"><u>News</u></li>
+         
+                <li>
+                    <u>Home</u>
+                </li>
+                <li style="margin-left: 20px;">
+                    <u>News</u>
+                </li>
             </div>
             <center>
                 <h1 style="color:white">
                     <u>Putchee' Zip Code in below</u>
                 </h1>
                 <br>
-                 <form>
-                    <input placeholder="Enter Zipcode" type="text"> <span id="enterZip"></span>
-                     <button id="push" style="color:black">Update Weather</button>
-         
+                <form>
+                    <input placeholder="Enter Zipcode" type="text" id="postCode"> 
+
+                    <button id="post" style="color:black">Update Weather</button>
+
                 </form>
-                 </center>
-                  </ul>
-                   <br>
-            
+            </center>
+        </ul>
+        <br>
+
         <ul class="right">
             <img src="moon1.png" style="width: 75px; height: 75px;">
             <li>
@@ -52,48 +67,45 @@
 
     </nav>
     <!-- End of Nav Bar ---------------------------------------------------------------------->
+
+
 </head>
 <hr style="margin-bottom:50px; margin-top: 70px;">
 
 <!-- Container -------------------------------------------------------->
 
 <body>
-    
+
     <center>
-        <div>
-            <div class="bgCard" style="margin-top: 5%">
-                <div style="margin-bottom:10px; margin-top:10px;">Temp: <span id="weather"></span> 0 &deg;  </div>
-                <div style="margin-bottom:10px;"><span id="location">Unknown</span></div>  <!-- location , google url -->
-                <div>  
-                <img id="icon" width="200px" height="140px" src="cloudy.png" />
+        <div>            <!-- card -->
+            <div class="bgCard" id="myCard" style="margin-top: 5%">
+
+                             <!-- google location -->
+                <div style="margin-bottom:10px; font-size:2em;"><span id="loCate">location</span></div>
+
+                         <!-- Temp -->
+                <div style="margin-bottom:10px; margin-top:10px; font-size:2em">Temp: <span id="temp" style="font-size:2em">0</span>  &deg; </div>
+            
+                
+                <div>            <!-- the image -->
+                    <img id="icon" width="200px" height="140px" src="cloudy.png" />
                 </div>
-       <!--         <div class="imgReport"><img src="sun.png"></div>    --> 
-                <div style="margin-bottom:20px;"><span id=" ">0</span> % </div>
-                <div><span id="">0</span>mph <span id="">N</span></div>
+
+
+               
+                                  <!-- Rain -->
+                <div style="margin-bottom:20px font-size:2em;"><span id=" " style="font-size:2em">0</span> % </div>
+               
             </div>
-            <div class="summary">
-                <h1><u>Summary</u></h1>
-                <ul>
-                    <li id="summary"></li>
-                </ul>
-            </div>
+           
         </div>
     </center>
-    
-    <br>
-     <!-- Official JQuery -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-    <!-- Official Bootstrap -->
-    <script src="bootstrap-3.3.7-dist_copy/js/bootstrap.js"></script>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Our project JS -->
-   <script type="text/javascript" src="weatherfinal.js"></script>
 
-   
+    <br>
+ 
+
+
 </body>
 <!-- End of container ----------------------------------------------------->
 
 </html>
-
